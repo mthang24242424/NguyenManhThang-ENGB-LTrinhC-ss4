@@ -19,7 +19,7 @@ int main(){
 	 if(month<0||month>12){
 	 	HopLe = 0; 
 	 } 
-	 if(HopLe){
+	 if(HopLe==1){
 	 	switch (month){
 	 		case 1: case 3: case 5: case 7: case 8: case 10: case 12:
 			 if(day<1||day>31){
